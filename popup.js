@@ -14,7 +14,7 @@ document.getElementById('exportBtn').addEventListener('click', () => {
     // Use the Chrome downloads API to save the file
     chrome.downloads.download({
       url: url,
-      filename: 'my_tabs.txt',
+      filename: 'My_Tabs_.txt',
       saveAs: true
     });
   });
